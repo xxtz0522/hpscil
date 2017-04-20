@@ -1,0 +1,131 @@
+/*————————————————————————index——————————————————————————*/
+/*body*/
+/*全局*/
+body{
+	font-family: 'Microsoft yahei','微软雅黑',Tahoma,Verdana,Arial;
+}
+
+/*分块标题*/
+.row-title{
+	margin-left: 2em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #e3e2df;
+	margin-bottom: 1em;
+	color: #3c3c3c;
+}
+.title{
+	border-left: solid 4px #337ab7;
+	padding-left: 20px;
+}
+
+/*header*/
+#header{
+	text-align: center;
+	background-color: #337ab7;
+	/*padding: 1.5em;*/
+}
+/*#header h1{
+	color: white;
+	letter-spacing:0.1em;
+	/*为了加特效
+	position: absolute;
+	top:220px;
+	left: 38%;
+}*/
+#header img{
+	top: 1em;
+	position: absolute;
+	left: 37%;
+}
+/*特效*/
+#output{
+	margin: 0;
+	height: 300px;
+	top:0;
+}
+
+
+/*nav*/
+#mainnav{
+	width: 100%;
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+.row{
+	/*border: 1px red solid;*/
+}
+
+/*one*/
+/*轮播*/
+#myCarousel,.carousel-inner{
+	height: 100%;
+}
+.carousel-inner p{
+	background-color: #2b2b2b;
+	color: white;
+	margin: 0;
+	padding: 0.5em;
+}
+.icon-prev,.icon-next{
+	padding-top:30%;
+}
+
+/*three*/
+/*图说*/
+.list-group-item .actimg{
+	height: 100px;
+	overflow: hidden;
+}
+.list-group-item .actimg img{
+	width: 100%;
+	height: auto;
+}
+/*下载专区*/
+.breadcrumb{
+	float: right;
+	margin: 0;
+}
+
+/*footer*/
+/*four*/
+/*友情链接*/
+#four{
+	background-color: #d7d7d7;
+}
+#four h4{
+	margin-top: 1.5em;
+}
+#four li{
+	padding: 0.8em;
+	padding-left: 1.5em;
+}
+.copyright{
+	padding: 1em;
+	background-color: #337ab7;
+	color: #a8cff0;
+	text-align: center; 
+	font-size: 0.8em;
+}
+
+/*————————————————————————intro——————————————————————————*/
+#header h2{
+	color: white;
+	letter-spacing:8px;
+}
+#intromain{
+	box-shadow: 0 0 6px 0 rgba(0,0,0,.25);
+}
+.intro-title{
+	text-align: center;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+}
+.intro-title span{
+	margin-right: 1.5em;
+}
+.intro-content,.below{
+	padding: 2.5em;
+	line-height: 1.8em;
+	font-size: 1.1em;
+	text-indent:40px;
+}
